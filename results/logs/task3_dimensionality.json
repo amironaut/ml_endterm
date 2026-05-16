@@ -1,0 +1,61 @@
+{
+  "per_dataset": [
+    {
+      "tag": "dataset_a_adult",
+      "pca_retention_95pct": {
+        "model": "random_forest",
+        "best_params": {
+          "max_depth": null,
+          "min_samples_leaf": 2,
+          "n_estimators": 200
+        },
+        "test_accuracy": 0.8546471953050362,
+        "test_f1_macro": 0.7859919041597585,
+        "test_f1_weighted": 0.8492044023443623,
+        "pca_n_components": 31
+      },
+      "best_model_full_dim": {
+        "model": "random_forest",
+        "best_params": {
+          "max_depth": null,
+          "min_samples_leaf": 2,
+          "n_estimators": 200
+        },
+        "test_accuracy": 0.8670670124198171,
+        "test_f1_macro": 0.8022413338644956,
+        "test_f1_weighted": 0.8612875597905704
+      },
+      "delta_accuracy_pca_minus_full": -0.012419817114780907,
+      "delta_f1_weighted_pca_minus_full": -0.012083157446208026
+    },
+    {
+      "tag": "dataset_b_digits",
+      "pca_retention_95pct": {
+        "model": "svm_rbf",
+        "best_params": {
+          "clf__kernel": "rbf",
+          "clf__gamma": 0.01,
+          "clf__C": 4.0
+        },
+        "test_accuracy": 0.9777777777777777,
+        "test_f1_macro": 0.9773096903096903,
+        "test_f1_weighted": 0.9776059866059867,
+        "pca_n_components": 40
+      },
+      "best_model_full_dim": {
+        "model": "svm_rbf",
+        "best_params": {
+          "clf__kernel": "rbf",
+          "clf__gamma": 0.01,
+          "clf__C": 4.0
+        },
+        "test_accuracy": 0.9740740740740741,
+        "test_f1_macro": 0.973732695875553,
+        "test_f1_weighted": 0.9739594532451675
+      },
+      "delta_accuracy_pca_minus_full": 0.0037037037037036535,
+      "delta_f1_weighted_pca_minus_full": 0.003646533360819215
+    }
+  ],
+  "analysis_300_400_words": "Dimensionality reduction sits at the boundary between representation learning and exploratory data analysis. In our experiments, Principal Component Analysis (PCA) offered a faithful global linear summary: the cumulative explained variance curve made the variance\u2013complexity trade-off explicit, and retaining ninety-five percent of the variance substantially lowered dimensionality while preserving enough signal for strong linear models. However, PCA components are not guaranteed to align with class boundaries, so discriminative information that is small in variance can be discarded, which occasionally hurts accuracy relative to the full feature space. Linear Discriminant Analysis (LDA) behaved differently because it is supervised: it explicitly seeks directions that maximize between-class scatter relative to within-class scatter, which often improves class separation in two-dimensional plots when classes are linearly separable. For highly non-linear boundaries, LDA projections can still look tangled, but they remain a cheap and interpretable baseline when labels are trustworthy. t-distributed Stochastic Neighbor Embedding (t-SNE) and UMAP produced visually striking cluster structure and helped sanity-check labeling noise, yet both methods distort global geometry and densities. That makes them risky as preprocessing layers for downstream classifiers trained in the embedded space, even though they are excellent for dashboards and error analysis. Practically, we observed a recurring tension: lower dimensionality improved training speed and regularized high-variance models, but overly aggressive compression removed cues that tree ensembles and margin classifiers exploit in the original space. In a production setting, we would recommend PCA or LDA when latency, storage, or covariance estimation stability matters, and reserve t-SNE or UMAP for human-in-the-loop monitoring. When accuracy is paramount and budgets allow, we would start from the full feature set, apply PCA only after careful validation, and pair dimensionality reduction with robust calibration and leakage-safe cross-validation. Finally, whenever embeddings are used for more than visualization, teams should log reconstruction or downstream metric deltas against a full-dimensional baseline so that dimensionality choices remain auditable."
+}

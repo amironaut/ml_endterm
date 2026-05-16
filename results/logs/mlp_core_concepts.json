@@ -1,0 +1,10 @@
+{
+  "sigmoid_mlp_test_accuracy": 0.8565579363996179,
+  "sigmoid_mlp_final_val_loss": 0.3155343532562256,
+  "mse_softmax_head_test_mse": 0.10005954758426336,
+  "mse_softmax_head_test_accuracy": 0.8549201583185478,
+  "logistic_l1_test_accuracy": 0.8550566398253037,
+  "logistic_l1_nonzero_coefs": 105,
+  "logistic_l2_test_accuracy": 0.8553296028388153,
+  "notes": "Softmax is applied at the output for MSE demo; cross-entropy MLP uses linear logits + CrossEntropyLoss (implicit softmax)."
+}

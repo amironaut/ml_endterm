@@ -1,0 +1,8 @@
+{
+  "custom_cnn_test_accuracy": 0.8552,
+  "custom_cnn_train_time_sec": 1553.6384513378143,
+  "resnet18_test_accuracy": 0.777,
+  "resnet18_train_time_sec": 878.4588181972504,
+  "resnet18_used_imagenet_pretrained": true,
+  "status": "complete"
+}

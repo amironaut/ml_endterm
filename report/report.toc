@@ -1,0 +1,61 @@
+\contentsline {section}{\numberline {1}Task 1 --- Classification Algorithms}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Theoretical summaries}{4}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}k-Nearest Neighbors (k-NN)}{4}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Decision Trees}{4}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Random Forest}{4}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Support Vector Machines (SVM)}{5}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.5}Logistic Regression}{5}{subsubsection.1.1.5}%
+\contentsline {subsubsection}{\numberline {1.1.6}Naive Bayes}{5}{subsubsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.2}Comparison table}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Algorithm deep dive: Logistic regression}{5}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Derivation sketch}{5}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Hand-crafted toy example}{7}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Overfitting and underfitting}{7}{subsubsection.1.3.3}%
+\contentsline {section}{\numberline {2}Task 2 --- Python implementation of classification models}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Dataset choices}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Preprocessing rationale}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Models and tuning}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Evaluation protocol}{8}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Task 3 --- Dimensionality reduction}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Theoretical background (PCA and t-SNE)}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Practical application}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Analysis (300--400 words)}{11}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Task 4 --- Deep learning fundamentals}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}MLP architecture}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Optimizer study}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Core concept demonstrations}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Conceptual questions}{13}{subsection.4.4}%
+\contentsline {paragraph}{(a) Vanishing gradients.}{13}{section*.10}%
+\contentsline {paragraph}{(b) Batch normalization.}{13}{section*.11}%
+\contentsline {paragraph}{(c) Learning rate.}{13}{section*.12}%
+\contentsline {section}{\numberline {5}Task 5 --- Convolutional neural networks}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Custom CNN architecture}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Training and evaluation}{14}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Transfer learning}{14}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Visualization}{15}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Task 6 --- General overview and integration}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Deep learning algorithm survey (600--800 words)}{16}{subsection.6.1}%
+\contentsline {paragraph}{Recurrent neural networks and LSTMs.}{16}{section*.17}%
+\contentsline {paragraph}{Generative adversarial networks (GANs).}{16}{section*.18}%
+\contentsline {paragraph}{Transformers and attention.}{16}{section*.19}%
+\contentsline {paragraph}{Graph neural networks (GNNs).}{16}{section*.20}%
+\contentsline {paragraph}{Autoencoders and variational autoencoders (VAEs).}{16}{section*.21}%
+\contentsline {subsection}{\numberline {6.2}Comparative analysis table}{17}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Reflection and conclusions (400--500 words)}{17}{subsection.6.3}%
+\contentsline {section}{\numberline {A}Extended reproducibility checklist}{18}{appendix.A}%
+\contentsline {section}{\numberline {B}Appendix: preprocessing code map}{19}{appendix.B}%
+\contentsline {section}{\numberline {C}Appendix: mathematical notation}{19}{appendix.C}%
+\contentsline {section}{\numberline {D}Appendix: glossary of metrics}{19}{appendix.D}%
+\contentsline {section}{\numberline {E}Appendix: extended Task~1 narratives (150--250 words each)}{19}{appendix.E}%
+\contentsline {section}{\numberline {F}Appendix: extended Task~6 survey material}{21}{appendix.F}%
+\contentsline {section}{\numberline {G}Appendix: ethical scenarios (deployment)}{22}{appendix.G}%
+\contentsline {section}{\numberline {H}Appendix: FAQ crosswalk}{22}{appendix.H}%
+\contentsline {section}{\numberline {I}Appendix: notation reference for deep learning}{22}{appendix.I}%
+\contentsline {section}{\numberline {J}Appendix: extended bibliography notes}{22}{appendix.J}%
+\contentsline {section}{\numberline {K}Appendix: checklist before zipping submission}{22}{appendix.K}%
+\contentsline {section}{\numberline {L}Appendix: duplicate comparison table for print readability}{23}{appendix.L}%
+\contentsline {subsection}{\numberline {L.1}Comparison table}{23}{subsection.L.1}%
+\contentsline {section}{\numberline {M}Appendix: software engineering notes}{23}{appendix.M}%
+\contentsline {section}{\numberline {N}Appendix: potential extensions (extra credit creativity)}{23}{appendix.N}%
+\contentsline {section}{\numberline {O}Appendix: data cards (datasets)}{24}{appendix.O}%
+\contentsline {section}{\numberline {P}Appendix: student instructions for compiling page count}{24}{appendix.P}%
